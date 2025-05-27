@@ -165,3 +165,19 @@ body {
         display: flex;
         flex-direction: column;
     }
+
+  /* Set dark mode by default on first load */
+  html:not([data-theme]) {
+    color-scheme: dark;
+  }
+  body:not(.light):not(.dark) {
+    /* Apply dark mode variables by default */
+    --background: 222 47% 4%;
+    --foreground: 213 31% 91%;
+    --card: 222 47% 8%;
+    --primary: 250 65% 65%;
+    --primary-foreground: 213 31% 91%;
+    --border: 217 33% 20%;
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+  }
