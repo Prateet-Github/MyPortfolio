@@ -1,36 +1,35 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
 const projects = [
-
   {
     id: 1,
-    title: "Spotify Clone",
+    title: "MyGPT",
     description:
-      "A responsive Spotify clone built with HTML, CSS, and JavaScript.",
-    image: "/images/Spotify.png",
-    tags: ["HTML", "CSS", "JavaScript"],
-    demoUrl: "https://spotify-by-prateet.vercel.app",
-    githubUrl: "#",
+      "An AI-powered chat and image generation app leveraging OpenAI’s API. Features natural language conversations, prompt-based image creation, and a clean, responsive UI. Optimized with ImageKit.io for fast asset delivery.",
+    image: "/images/gpt.jpeg",
+    tags: ["React", "OpenAI API", "ImageKit.io", "Tailwind CSS"],
+    demoUrl: "https://mygpt-demo.vercel.app", // if hosted
+    githubUrl: "https://github.com/Prateet-Github/gpt-app",
   },
   {
     id: 2,
-    title: "Nike Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image:"/images/Nike.png",
-    tags: ["React", "TailwindCSS"],
-    demoUrl: "https://nike-react-c7fz.vercel.app/",
-    githubUrl: "#",
+    title: "Chat App",
+    description:
+      "A real-time chat platform built with Supabase, featuring authentication, database persistence, and instant messaging. Designed with secure auth flows and optimized queries for scalability.",
+    image: "/images/chat.jpeg",
+    tags: ["React", "Supabase", "Real-time", "Tailwind CSS"],
+    demoUrl: "https://chatapp-demo.vercel.app", // if hosted
+    githubUrl: "https://github.com/Prateet-Github/chat-app",
   },
-  
   {
     id: 3,
-    title: "Snapshop E-commerce",
+    title: "Apple UI",
     description:
-      "Full-featured e-commerce platform ",
-    image: "/images/Snapshop.png",
-    tags: ["React", "Node.js", "MongoDB"],
-    demoUrl: "https://prateet-github.github.io/tomorrow/",
-    githubUrl: "#",
+      "A visually engaging Apple-inspired UI clone featuring 3D animations with Three.js and smooth transitions powered by Framer Motion. Focused on high-performance rendering and responsive design.",
+    image: "/images/apple.jpeg",
+    tags: ["React", "Three.js", "Framer Motion", "Tailwind CSS"],
+    demoUrl: "https://appleui-demo.vercel.app", // if hosted
+    githubUrl: "https://github.com/Prateet-Github/Last_Apple",
   },
 ];
 
@@ -102,7 +101,7 @@ export const Projects = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="#"
+            href="https://github.com/Prateet-Github"
           >
             Check My Github <ArrowRight size={16} />
           </a>

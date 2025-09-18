@@ -51,7 +51,7 @@ export const About = () => {
                   <Code className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg"> Web Development</h4>
+                  <h4 className="font-semibold text-lg"> Full Stack Development</h4>
                   <p className="text-muted-foreground">
                     Creating responsive websites and web applications with
                     modern frameworks.
@@ -65,10 +65,9 @@ export const About = () => {
                   <User className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Video Editing</h4>
+                  <h4 className="font-semibold text-lg">SQL</h4>
                   <p className="text-muted-foreground">
-                    Crafting engaging video content with professional editing
-                    techniques.
+                    Proficient in designing and managing relational databases
                   </p>
                 </div>
               </div>
@@ -80,10 +79,10 @@ export const About = () => {
                 </div>
 
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Videography</h4>
+                  <h4 className="font-semibold text-lg">Docker</h4>
                   <p className="text-muted-foreground">
-                    Capturing high-quality video content for various projects
-                    and events.
+                    Experience in containerizing applications for consistent
+                    deployment.
                   </p>
                 </div>
               </div>

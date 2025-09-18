@@ -3,23 +3,38 @@ import { cn } from "@/lib/utils";
 
 const skills = [
   // Frontend
-  { name: "HTML/CSS", level: 95, category: "frontend" },
+  { name: "HTML/CSS", level: 90, category: "frontend" },
   { name: "JavaScript", level: 90, category: "frontend" },
   { name: "React", level: 90, category: "frontend" },
   { name: "TypeScript", level: 85, category: "frontend" },
   { name: "Tailwind CSS", level: 90, category: "frontend" },
-  { name: "Next.js", level: 0, category: "frontend" },
+  { name: "Next.js", level: 80, category: "frontend" },
+  { name: "Framer", level: 70, category: "frontend" },
+  { name: "GSAP", level: 80, category: "frontend" },
+  { name: "Three.js", level: 80, category: "frontend" },
+  { name: "Redux", level: 75, category: "frontend" },
 
   // Backend
   { name: "Node.js", level: 80, category: "backend" },
   { name: "Express", level: 75, category: "backend" },
   { name: "MongoDB", level: 70, category: "backend" },
+  { name: "RESTful APIs", level: 80, category: "backend" },
+  { name: "GraphQL", level: 60, category: "backend" },
+  { name: "SQL", level: 70, category: "backend" },
+  { name: "Socket.IO", level: 80, category: "backend" },
+  { name: "JWT/OAuth", level: 70, category: "backend" },
 
-  // Tools
+  // Tools & Platforms
   { name: "Git/GitHub", level: 90, category: "tools" },
   { name: "Postman", level: 80, category: "tools" },
-  { name: "Bootstrap", level: 95, category: "tools" },
-  { name: "VS Code", level: 95, category: "tools" },
+  { name: "WebSocket", level: 95, category: "tools" },
+  { name: "WebRTC", level: 90, category: "tools" },
+  { name: "Leaflet.js", level: 90, category: "tools" },
+  { name: "OSM/OSRM", level: 85, category: "tools" },
+  { name: "Docker", level: 80, category: "tools" },
+  { name: "Supabase", level: 80, category: "tools" },
+  { name: "Stripe", level: 70, category: "tools" },
+  { name: "AWS/Vercel", level: 70, category: "tools" },
 ];
 
 const categories = ["all", "frontend", "backend", "tools"];
